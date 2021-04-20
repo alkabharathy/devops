@@ -1,0 +1,30 @@
+cd 
+cd
+cd..
+git --version
+clear
+cls
+mkdir devops
+cd devops
+dir
+echo "This is FileA" > FileA.txt
+echo "This is FileB" > FileB.txt
+dir
+get-history
+start-transcript
+Start-Transcript
+cls
+history
+get-history
+doskey /history > commands.log
+commands.log
+cls
+commands.log
+cls
+doskey /history >> \commands.log
+cls
+commands.log
+cls
+more FileA.txt
+more FileB.txt
+doskey /history > commands.log
